@@ -1,0 +1,12 @@
+/* 利用页面元素围绕鼠标旋转的效果 */
+* {
+    margin: 1;
+    padding: 0;
+}
+
+span.particle {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%
+}
